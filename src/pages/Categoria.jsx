@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import MovieCard from "../components/MovieCard";
+import MovieCard from '../components/MovieCard';
 import '../style/movie.css';
 
 const generoUrl = import.meta.env.VITE_GENER;
