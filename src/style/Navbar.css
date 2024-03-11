@@ -3,14 +3,20 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #01101f;
+    background-color: #fffffff7;
   }
+
   
   #navbar h2 a {
-    display: flex;
+    padding: 15px;
+    margin: 5px;
+    display: inline-block;
     align-items:center ;
     gap: 0.5rem;
   }
+
+ 
+
   
  
   

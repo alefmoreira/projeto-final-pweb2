@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #001a33;
+    background-color: #404040;
     color: azure;
   }
   
@@ -17,5 +17,5 @@
   }
   
   a:hover {
-    color: #ffc905;
+    color: #dd0d0d;
   }

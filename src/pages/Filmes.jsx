@@ -28,7 +28,7 @@ const Filmes = () =>{
     const formatCurrency = (number) => {
       return number.toLocaleString("en-US", {
         style: "currency",
-        currency: "USD",
+        currency: "BRL",
       });
     };
   
@@ -39,8 +39,11 @@ const Filmes = () =>{
   
     return (
       <div className="movie-page">
+        <div class="counteiner">
+        
         {movie && (
           <>
+          
             <MovieCard movie={movie} showLink={false} />
             <p className="tagline">{movie.tagline}</p>
             <div className="info">
@@ -67,9 +70,13 @@ const Filmes = () =>{
               </h3>
               <p>{movie.overview}</p>
             </div>
+            
+      
           </>
         )}
-      </div>
+          </div>
+        </div>
+      
     );
   };
 

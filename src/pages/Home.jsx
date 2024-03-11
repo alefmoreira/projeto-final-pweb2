@@ -3,6 +3,8 @@ import{BiCameraMovie, BiSearchAlt2} from "react-icons/bi"
 import { useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 
+import '../style/home.css'
+
 const Home = () =>{
     const [search, setSearch] = useState("")
     const navigate = useNavigate()
@@ -18,17 +20,22 @@ const Home = () =>{
 
     return(
         <div>
-         <form onSubmit={handleSubmit}>
-         <input type="text" placeholder="Buscar Filmes" 
+         <form onSubmit={handleSubmit} >
+        <div class="search-box">
+         <input type="searchTerm" placeholder="Buscar Filmes" 
          onChange={(e) => setSearch(e.target.value)}
          value={search}
          />
-         <button type="submit">
+         <button type="submit" class="search-btn">
             <BiSearchAlt2/>
         </button>
+        </div>
             
         </form>
+
+        
         </div>
+        
     )
 }
 
