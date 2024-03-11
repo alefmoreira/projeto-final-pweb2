@@ -12,10 +12,10 @@
   
   a {
     text-decoration: none;
-    color: #c29d17;
+    color: #dd0d0d;
     transition: 0.8s;
   }
   
   a:hover {
-    color: #dd0d0d;
+    color: #c29d17;
   }
